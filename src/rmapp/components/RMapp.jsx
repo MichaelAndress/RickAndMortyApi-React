@@ -23,8 +23,13 @@ export const RMapp = () => {
   return (
     <>
       <Hero />
-      <button className='btn btn-success' onClick={ siguiente } >Siguente</button>
-      <button className='btn btn-warning' onClick={ atras } disabled={counter===1} >Atras</button>
+      <div className="seccionBtn">
+        <div className="botones">
+        <button className='btn btn-warning' onClick={ atras } disabled={counter===1} >Atras</button>
+        <button className='btn btn-success' onClick={ siguiente } >Siguente</button>
+
+        </div>
+      </div>
       <div className="container mt-4">
         <Personajes />
         
