@@ -26,9 +26,9 @@ export const Perso = () => {
           <h5 className="card-title text-center text-s fs-1">{ name }</h5>
           <hr />
           <ul className="fs-4">
-            <li>{ gender }</li>
-            <li>{ species }</li>
-            <li>{ status }</li>
+            <li>Gender: { gender }</li>
+            <li>Specie: { species }</li>
+            <li>State: { status }</li>
           </ul>
         </div>
       </div>
